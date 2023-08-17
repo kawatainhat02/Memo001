@@ -1,0 +1,193 @@
+Name="Hello World"   
+दिखाए(Name)   
+
+
+दिखाए("Tic Tac Toe") 
+दिखाए(007) 
+
+
+Name="Kalam"  
+दिखाए("Hello World," + "My Name is" + Name + "!") 
+
+इनपुट(Name)
+
+ 
+दिखाए(Name)
+
+इनपुट(language)
+
+
+अगर(language=='kalam')
+
+{
+
+दिखाए('Alright, that's cool!')
+
+
+}
+
+
+उदाहरण 2
+
+
+इनपुट(language)
+
+इनपुट(country)
+
+
+अगर(language=='kalam' || country=='india')
+{
+
+
+
+दिखाए('That works too.')
+
+
+}
+
+
+#उदाहरण 1  
+
+
+
+दुहराओ x को (0,10) मे
+
+{
+
+value= x*5
+
+दिखाए(value)
+
+}
+
+
+#उदाहरण 2  
+
+
+Name="HALF COOKED RICE"
+
+दुहराओ y को Name मे
+
+{
+
+value=Name[y]
+
+दिखाए(value + y)
+
+}
+count=0
+
+
+जबतक(count<25)
+{
+
+दिखाए(count)
+
+
+count=count+1
+
+
+}
+
+City='Banglore'
+
+Cities=['Pusad','Pune','Mumbai','Delhi']
+
+
+Citylength= City.संख्या()
+
+Citieslength=Cities.संख्या()
+
+
+दिखाए('The length of the City is' + Citylength )
+
+दिखाए('The length of the Cities is' + Citieslength )
+
+#उदाहरण 1
+
+Numbers=[]
+
+दुहराओ x को (1,10)
+
+{
+
+
+Numbers.पुश(x)
+
+
+}
+
+दिखाए(Numbers)
+
+
+#उदाहरण 2
+
+Numbers=[]
+
+
+Name='Angry Birds'
+type='Game'
+
+
+Numbers.पुश(Name)
+
+Numbers.पुश(type)
+
+
+
+दिखाए(Numbers)
+
+FirstName='Sachin'
+
+LastName='Tendulkar'
+
+
+
+रचना PrintFullName(First,Last)
+
+{
+
+दिखाए(First + Last)
+
+
+
+}
+
+
+PrintFullName(FirstName,LastName)
+
+
+Job='Doctor'
+City='Pune'
+
+रचना AboutMe(x,y)
+
+{
+
+
+
+दिखाए("I am a" + x + "in" + y)
+
+
+}
+
+
+AboutMe(Job,City)
+
+
+NumberOne=20
+NumberTwo=40
+
+रचना Add(a,b)
+{
+
+c=a+b
+
+दिखाए(c)
+
+
+}
+
+
+Add(NumberOne,NumberTwo)
+
